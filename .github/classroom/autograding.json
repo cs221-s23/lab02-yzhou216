@@ -9,6 +9,96 @@
       "comparison": "exact",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "r in foobar",
+      "setup": "make",
+      "run": "./lab02 foobar r",
+      "input": "",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "oo in foobar",
+      "setup": "make",
+      "run": "./lab02 foobar oo",
+      "input": "",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "fo in foobar",
+      "setup": "make",
+      "run": "./lab02 foobar fo",
+      "input": "",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "invalid",
+      "setup": "make",
+      "run": "./lab02 foobar",
+      "input": "",
+      "output": "invalid arguments",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "super",
+      "setup": "make",
+      "run": "./lab02 supercalifragilisticexpialidocious super",
+      "input": "",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "cali",
+      "setup": "make",
+      "run": "./lab02 supercalifragilisticexpialidocious cali",
+      "input": "",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "fragile",
+      "setup": "make",
+      "run": "./lab02 supercalifragilisticexpialidocious fragile",
+      "input": "",
+      "output": "0",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "u in super",
+      "setup": "make",
+      "run": "./lab02 supercalifragilisticexpialidocious u",
+      "input": "",
+      "output": "2",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "i in super",
+      "setup": "make",
+      "run": "./lab02 supercalifragilisticexpialidocious i",
+      "input": "",
+      "output": "7",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
