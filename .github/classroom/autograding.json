@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "o&#45;in&#45;foobar",
+      "setup": "make",
+      "run": "./lab02 foobar o",
+      "input": "",
+      "output": "2",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
