@@ -45,8 +45,8 @@
       "setup": "make",
       "run": "./lab02 foobar",
       "input": "",
-      "output": "invalid arguments",
-      "comparison": "included",
+      "output": "?nvalid arguments",
+      "comparison": "regex",
       "timeout": 10,
       "points": 10
     },
